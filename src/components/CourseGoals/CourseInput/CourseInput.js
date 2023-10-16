@@ -22,6 +22,7 @@ const CourseInput = props => {
     }
     props.onAddGoal(enteredValue);
     event.target.reset()
+    setEnteredValue('')
   };
 
   return (
